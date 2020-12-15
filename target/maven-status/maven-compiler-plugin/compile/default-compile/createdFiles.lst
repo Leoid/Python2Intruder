@@ -1,0 +1,6 @@
+burp\BurpExtenderTab.class
+burp\ConfigComponent.class
+burp\VariableManager.class
+burp\ConfigComponent$1.class
+burp\BurpExtender.class
+burp\LogRequestResponse.class
