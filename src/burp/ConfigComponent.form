@@ -62,7 +62,7 @@
                   <component id="5096e" class="javax.swing.JButton" binding="clearbtn">
                     <constraints/>
                     <properties>
-                      <enabled value="false"/>
+                      <enabled value="true"/>
                       <text value="Clear"/>
                     </properties>
                   </component>
@@ -79,7 +79,7 @@
             <properties>
               <foreground color="-13452489"/>
               <rows value="10"/>
-              <text value="# Example: retValue = str(baseValue) + &quot;test&quot; # # Examples:&#10;# retValue = str(baseValue) + &quot;test&quot;  # Concatenate the string &quot;test&quot; to the selected paylaod value in Intruder&#10;# retValue = str(currentPayload * 10) # Multiply 10 with every single paylaod (from the payload options)&#10;# import random&#10;# retValue = str(random.randint(0, 10)) # return a random number from 0 to 10"/>
+              <text value="# Example: retValue = str(baseValue) + &quot;test&quot; # # Examples:&#10;# retValue = str(baseValue) + &quot;test&quot;  # Concatenate the string &quot;test&quot; to the selected paylaod value in Intruder&#10;# retValue = str(currentPayload * 10) # Multiply 10 with every single paylaod (from the payload options)&#10;# import random&#10;# retValue = str(random.randint(0, 10)) # return a random number from 0 to 10&#10;# import hashlib &#10;# retValue = hashlib.md5(currentPayload.encode()) # return the md5 hash of the current payload&#10;  "/>
             </properties>
           </component>
           <component id="dfa53" class="javax.swing.JLabel">

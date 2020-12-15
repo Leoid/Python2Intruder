@@ -18,11 +18,14 @@ The use of the following variables are required:
 - retValue: The returned value to the Intruder
 
  ```
-# Examples:
+# Example: retValue = str(baseValue) + "test" # # Examples:
 # retValue = str(baseValue) + "test"  # Concatenate the string "test" to the selected paylaod value in Intruder
 # retValue = str(currentPayload * 10) # Multiply 10 with every single paylaod (from the payload options)
 # import random
 # retValue = str(random.randint(0, 10)) # return a random number from 0 to 10
+# import hashlib 
+# retValue = hashlib.md5(currentPayload.encode()) # return the md5 hash of the current payload
+  
 ```
 
 #### Build the Project
