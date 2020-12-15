@@ -13,7 +13,7 @@ Python2Intruder extension handles the base value of the selected Intruder payloa
 
 ### Usage
 The use of the following variables are required:
-- baseValue: The selected payload in Intrudor tab
+- baseValue: The selected payload in Intruder tab
 - currentPayload: The itereated payload (From Payload Options).
 - retValue: The returned value to the Intruder
 
