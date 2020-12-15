@@ -61,7 +61,7 @@ public class BurpExtender implements IBurpExtender, ITab, IIntruderPayloadProces
         PyString payload = (PyString)pi.get("retValue");
 
 
-        byte[] ret = callbacks.getHelpers().stringToBytes("check: "+payload);
+        byte[] ret = callbacks.getHelpers().stringToBytes(payload.toString());
         return ret;
     }
 

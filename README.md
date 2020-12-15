@@ -24,8 +24,9 @@ The use of the following variables are required:
 # import random
 # retValue = str(random.randint(0, 10)) # return a random number from 0 to 10
 # import hashlib 
-# retValue = hashlib.md5(currentPayload.encode()) # return the md5 hash of the current payload
-  
+# retValue = hashlib.md5(currentPayload.encode())
+# retValue = str(retValue.hexdigest()) # return the md5 hash of the current payload
+
 ```
 
 #### Build the Project
