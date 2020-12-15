@@ -30,8 +30,7 @@ Use the following command to build the Jar file.
 > mvn clean install
 
 #### TODO:
-     - [ ] BurpCollaborator to Slack
-     - [ ] Match more options 
+     - [ ] Add Presets Python Functions
 
 
 #### Bugs / Feedback / PRs
