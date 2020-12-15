@@ -70,13 +70,13 @@ public class ConfigComponent {
         final JScrollPane scrollPane1 = new JScrollPane();
         panel3.add(scrollPane1, new GridConstraints(0, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_WANT_GROW, GridConstraints.SIZEPOLICY_CAN_SHRINK | GridConstraints.SIZEPOLICY_WANT_GROW, null, null, null, 0, false));
         clearbtn = new JButton();
-        clearbtn.setEnabled(false);
+        clearbtn.setEnabled(true);
         clearbtn.setText("Clear");
         scrollPane1.setViewportView(clearbtn);
         pythontxtarea = new JTextArea();
         pythontxtarea.setForeground(new Color(-13452489));
         pythontxtarea.setRows(10);
-        pythontxtarea.setText("# Example: retValue = str(baseValue) + \"test\" # # Examples:\n# retValue = str(baseValue) + \"test\"  # Concatenate the string \"test\" to the selected paylaod value in Intruder\n# retValue = str(currentPayload * 10) # Multiply 10 with every single paylaod (from the payload options)\n# import random\n# retValue = str(random.randint(0, 10)) # return a random number from 0 to 10");
+        pythontxtarea.setText("# Example: retValue = str(baseValue) + \"test\" # # Examples:\n# retValue = str(baseValue) + \"test\"  # Concatenate the string \"test\" to the selected paylaod value in Intruder\n# retValue = str(currentPayload * 10) # Multiply 10 with every single paylaod (from the payload options)\n# import random\n# retValue = str(random.randint(0, 10)) # return a random number from 0 to 10\n# import hashlib \n# retValue = hashlib.md5(currentPayload.encode()) # return the md5 hash of the current payload\n  ");
         panel2.add(pythontxtarea, new GridConstraints(4, 0, 1, 1, GridConstraints.ANCHOR_CENTER, GridConstraints.FILL_BOTH, GridConstraints.SIZEPOLICY_WANT_GROW, GridConstraints.SIZEPOLICY_WANT_GROW, null, new Dimension(150, 50), null, 0, false));
         final JLabel label3 = new JLabel();
         label3.setText("The use of the following variables are required:");
